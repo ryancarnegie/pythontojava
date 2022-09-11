@@ -1,0 +1,17 @@
+From Python to Java
+
+Convert a simple class to Java.
+
+Python                                      Java
+Can have code sitting inside a file.        Always goes inside a class. For code to run it has to be inside a method.
+def main():                                 public static void main(final String[] args)
+print("hi")                                 System.out.println("hi")
+Classes are uppercase                       Classes are uppercase
+Variable and function names lowercase       Variable and method names are camelCase
+File names are lowercase                    File names have to match class names
+Variables are object type (reference type)  Variables have a bunch of primitive types or object types
+Comments are # and """                      Comments are //, /* */, /** */ Tools Generate JavaDoc
+Class methods defined by def and self       Must have public/private or neither, must define return type
+self.title                                  this.title
+
+Run/debug configurations to set with main method to run the program if several classes have main's in them
