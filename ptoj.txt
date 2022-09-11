@@ -1,0 +1,6 @@
+From Python to Java
+
+Convert a simple class to Java.
+
+# Python                                      Java
+Can have code sitting inside a file.          Always in a class. Has to be inside a method.
